@@ -10,4 +10,4 @@ def solution(x: np.array) -> float:
     m = y.mean()
     sd = np.std(y)
     a = np.exp(m+(sd**2)/2)
-    return a
+    return m
