@@ -7,10 +7,8 @@ chat_id = 1943224240 # Ваш chat ID, не меняйте название пе
 
 def solution(x: np.array) -> float:
     y = np.log(x)
-    m = y.mean()
-    sd = np.std(y)
-    a = np.exp(m+(sd**2)/2)
+    m = 247+y.mean()
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return a # Ваш ответ
+    return m # Ваш ответ
